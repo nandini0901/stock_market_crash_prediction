@@ -39,7 +39,7 @@ This project predicts the likelihood of stock market crashes using advanced mach
 │ ├── sample_input.csv # Lightweight sample file
 └── 📁 notebooks/
 ├── modeling.ipynb # Training & tuning notebook
-└── deployment.ipynb # Deployment predictions notebook
+└── deployment.ipynb # Deployment predictions notebook```
 
 
 ---
