@@ -43,6 +43,7 @@ This project predicts the likelihood of stock market crashes using advanced mach
 
 
 ---
+
 ## 🚀 Installation
 
 1. **Clone the repository:**
