@@ -22,7 +22,7 @@ This project predicts the likelihood of stock market crashes using advanced mach
   - Threshold: `0.9987`
 - Both models trained on **20 top features** selected from market and sentiment data.
 
-✨ Screenshots
+✨ Screenshot
 <img width="1822" height="812" alt="stock_project" src="https://github.com/user-attachments/assets/8ff6dfa4-75cf-4090-8a77-1bd9acedff37" />
 
 
@@ -82,8 +82,6 @@ This project predicts the likelihood of stock market crashes using advanced mach
 Deploy to Streamlit Cloud (recommended).
 
 Or use Heroku, Docker, or AWS EC2.
-
-Predictions
 
 🙋‍♀️ Contributing
 Pull requests are welcome! For major changes, please open an issue first.
