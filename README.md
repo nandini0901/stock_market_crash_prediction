@@ -50,8 +50,9 @@ This project predicts the likelihood of stock market crashes using advanced mach
    git clone https://github.com/nandini0901/stock_market_crash_prediction.git
    cd stock_market_crash_prediction
 2.  **Install dependencies:**
+   ```bash
    pip install -r requirements.txt
-3. **Run the app:**
+4. **Run the app:**
    streamlit run app.py
 
 **📥 How to Use**
