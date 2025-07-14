@@ -43,4 +43,9 @@ This project predicts the likelihood of stock market crashes using advanced mach
 
 
 ---
+## 🚀 Installation
 
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/nandini0901/stock_market_crash_prediction.git
+   cd stock_market_crash_prediction
