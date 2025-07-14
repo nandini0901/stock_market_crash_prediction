@@ -25,7 +25,7 @@ This project predicts the likelihood of stock market crashes using advanced mach
 ---
 
 ## 📂 Project Structure
-```bash
+`
 📁 stock_market_crash_prediction/
 ├── 📄 app.py # Streamlit app
 ├── 📄 requirements.txt # Required Python libraries
