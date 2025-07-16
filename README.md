@@ -87,7 +87,7 @@ Or use Heroku, Docker, or AWS EC2.
 Pull requests are welcome! For major changes, please open an issue first.
 
 💡 Author
-Made with ❤️ by @nandini0901-github
+Made by @nandini0901-github
 
 
 
