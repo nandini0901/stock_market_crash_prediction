@@ -21,9 +21,9 @@ Upload your data matching the sample format to get predictions.
 
 # 📦 Load calibrated models and thresholds
 try:
-    rf_model = joblib.load('D:/stock_market_crash_prediction/calibrated_random_forest_model.pkl')
-    xgb_model = joblib.load('D:/stock_market_crash_prediction/calibrated_xgboost_model.pkl')
-    thresholds = joblib.load('D:/stock_market_crash_prediction/optimal_thresholds.pkl')
+    rf_model = joblib.load('calibrated_random_forest_model.pkl')
+    xgb_model = joblib.load('calibrated_xgboost_model.pkl')
+    thresholds = joblib.load('optimal_thresholds.pkl')
     rf_threshold = thresholds['rf']
     xgb_threshold = thresholds['xgb']
 
@@ -36,7 +36,7 @@ except Exception as e:
 uploaded_file = st.file_uploader("📤 Upload your CSV file (no target column required)", type=["csv"])
 
 # 📥 Sample CSV download
-with open("D:/stock_market_crash_prediction/merged_top_features(no_target).csv", "rb") as f:
+with open("sample_input_file.csv", "rb") as f:
     st.download_button(
         label="📥 Download Sample Input File",
         data=f,
