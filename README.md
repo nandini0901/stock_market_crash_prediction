@@ -1,9 +1,10 @@
-# stock_market_crash_prediction
+# Stock_market_crash_prediction
 A machine learning app to predict stock market crashes using Random Forest and XGBoost.
 # 📉 Stock Market Crash Prediction Dashboard
 
 This project predicts the likelihood of stock market crashes using advanced machine learning models (✅ Random Forest and ✅ XGBoost). The dashboard is built with [Streamlit](https://streamlit.io/) and allows users to upload their own datasets for instant predictions.
 
+Live Dashboard here: https://stockmarketcrashprediction-mydashboard.streamlit.app/
 ---
 
 ## 🚀 Features
@@ -39,8 +40,7 @@ This project predicts the likelihood of stock market crashes using advanced mach
 │ ├── calibrated_xgboost_model.pkl
 │ ├── optimal_thresholds.pkl
 ├── 📁 data/
-│ ├── deployment_predictions.csv # Example dataset
-│ ├── sample_input.csv # Lightweight sample file
+│ ├── sample_input_file.csv # sample file
 └── 📁 notebooks/
 ├── modeling.ipynb # Training & tuning notebook
 └── deployment.ipynb # Deployment predictions notebook`
