@@ -21,9 +21,9 @@ Upload your data matching the sample format to get predictions.
 
 # 📦 Load calibrated models and thresholds
 try:
-    rf_model = joblib.load('D:/stock_market_crash_prediction/notebooks/calibrated_random_forest_model.pkl')
-    xgb_model = joblib.load('D:/stock_market_crash_prediction/notebooks/calibrated_xgboost_model.pkl')
-    thresholds = joblib.load('D:/stock_market_crash_prediction/notebooks/optimal_thresholds.pkl')
+    rf_model = joblib.load('D:/stock_market_crash_prediction/calibrated_random_forest_model.pkl')
+    xgb_model = joblib.load('D:/stock_market_crash_prediction/calibrated_xgboost_model.pkl')
+    thresholds = joblib.load('D:/stock_market_crash_prediction/optimal_thresholds.pkl')
     rf_threshold = thresholds['rf']
     xgb_threshold = thresholds['xgb']
 
